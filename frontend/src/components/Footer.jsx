@@ -1,7 +1,7 @@
 
 
 
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 const Footer = () => {
     return (
@@ -21,10 +21,10 @@ const Footer = () => {
 
                     <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
                     <div className="flex flex-col gap-2 text-sm">
-                        <Link className="text-white hover:text-sky-600 transitions">Home</Link>
-                        <Link className="text-white hover:text-sky-600 transitions">Projects</Link>
-                        <Link className="text-white hover:text-sky-600 transitions">About</Link>
-                        <Link className="text-white hover:text-sky-600 transitions">Contact</Link>
+                        <NavLink to="/" className="text-white active:text-blue-600 hover:text-sky-600 transitions">Home</NavLink>
+                        <NavLink to="/projects" className="text-white active:text-blue-600 hover:text-sky-600 transitions">Projects</NavLink>
+                        <NavLink to="/about" className="text-white active:text-blue-600 hover:text-sky-600 transitions">About</NavLink>
+                        <NavLink to="/contact" className="text-white active:text-blue-600 hover:text-sky-600 transitions">Contact</NavLink>
                     </div>
                 </div>
 
@@ -39,17 +39,15 @@ const Footer = () => {
 
                     </div>
                 </div>
-
-
             </div>
 
             {/* this is the bottom line */}
             <div className="border-t border-gray-700 text-center py-4 text-sm">
                 © {new Date().getFullYear()} Neeraj. All rights reserved.
             </div>
-
         </footer>
     )
 }
+
 
 export default Footer
