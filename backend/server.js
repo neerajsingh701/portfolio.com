@@ -15,7 +15,7 @@ connectDB();
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://neerajportfolioo.netlify.app/"
+        "https://neerajportfolioo.netlify.app"
     ],
     credentials: true
 }));
