@@ -13,9 +13,12 @@ app.use(express.json());
 // connecting the database
 connectDB();
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: [
+        "http://localhost:5173",
+        "https://neerajportfolioo.netlify.app/"
+    ],
     credentials: true
-}))
+}));
 
 
 // midddleware (important for POST)
