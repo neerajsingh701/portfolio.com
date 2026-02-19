@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="NP Logo Icon">
+  <defs>
+    <linearGradient id="gradNP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="url(#gradNP)"/>
+
+  <path d="M16 44 V20 L32 44 V20" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="4.5" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+
+  <path d="M40 44 V20 H48 C52 20 54 22 54 26 C54 30 52 32 48 32 H40" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="4.5" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+</svg>
