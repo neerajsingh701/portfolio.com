@@ -34,6 +34,7 @@ const Home = () => {
                 </div>
 
                 {/* right section is here */}
+
                 <div className="flex-1">
                     <img
                         src={image1}
@@ -45,6 +46,8 @@ const Home = () => {
             </section>
 
             {/* About sections */}
+
+
             <section className='max-w-6xl mx-auto px-6 py-16 text-center'>
                 <h2 className="text-3xl font-bold mb-6">What I Do</h2>
                 <p className="text-gray-300 max-w-3xl mx-auto">
