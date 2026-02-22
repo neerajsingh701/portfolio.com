@@ -7,6 +7,7 @@ import github from '../src/assets/github.svg'
 import linkedin from '../src/assets/linkedin.svg'
 import twitter from '../src/assets/twitter.svg'
 import oldPortfolio from '../src/assets/old_profile.svg'
+import { NavLink } from "react-router-dom"
 
 
 const Home = () => {
@@ -29,7 +30,7 @@ const Home = () => {
                         using MERN stack and modern UI technologies.
                     </p>
                     <button className="mt-8 px-6 py-3 bg-white text-[#130b3a] font-semibold rounded-lg cursor-pointer hover:text-white hover:bg-blue-500 transition">
-                        <a href="/projects" >View projects</a>
+                        <NavLink to="/projects">View Projects</NavLink>
                     </button>
                 </div>
 
