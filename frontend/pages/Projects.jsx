@@ -45,10 +45,15 @@ const Projects = () => {
             React and Tailwind CSS with authentication system.
           </p>
 
-          <a href="#"
-            className='inline-block px-5 py-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:bg-gray-200 transition'
+          <a href="https://image-bg-removal-tau.vercel.app/"
+            className='inline-block px-3 py-2 mr-2 my-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:text-white hover:bg-red-500 transitions'
           >
             View Project
+          </a>
+          <a href="https://github.com/neerajsingh701/Image_BG_removal.git"
+            className='inline-block px-3 py-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:text-white hover:bg-sky-600 transitions'
+          >
+            View source code
           </a>
         </div>
 
@@ -69,10 +74,15 @@ const Projects = () => {
             dashboard, and performance tracking features.
           </p>
 
-          <a href="#"
-            className='inline-block px-5 py-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:bg-gray-200 transition'
+          <a href="https://habit-tracker-eosin-chi.vercel.app/habits"
+            className='inline-block px-3 py-2 mr-2 my-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:text-white hover:bg-red-500 transitions'
           >
             View Project
+          </a>
+          <a href="https://github.com/neerajsingh701/Habit_Tracker.git"
+            className='inline-block px-3 py-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:text-white hover:bg-sky-600 transitions'
+          >
+            View source code
           </a>
         </div>
 
@@ -94,9 +104,14 @@ const Projects = () => {
           </p>
 
           <a href="#"
-            className='inline-block px-5 py-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:bg-gray-200 transition'
+            className='inline-block px-3 py-2 mr-2 my-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:text-white hover:bg-red-500 transitions'
           >
             View Project
+          </a>
+          <a href="#"
+            className='inline-block px-3 py-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:text-white hover:bg-sky-600 transitions'
+          >
+            View source code
           </a>
         </div>
 
