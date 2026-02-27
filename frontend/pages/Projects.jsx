@@ -1,4 +1,6 @@
 
+import project01 from '../src/assets/project01.png'
+import project02 from '../src/assets/project02.png'
 import project1 from '../src/assets/project1.png'
 import project2 from '../src/assets/project2.png'
 import project3 from '../src/assets/project3.png'
@@ -31,7 +33,7 @@ const Projects = () => {
         {/* here will come Image bg removal */}
         <div className='bg-[#1c1445] p-8 rounded-xl border border-gray-700 shadow-lg hover:Shadow-2xl hover:translate-y-2 transition duration-300'>
           <img
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+            src={project01}
             alt="heroImage"
             className='rounded-xl shadow-2xl'
           />
@@ -55,7 +57,7 @@ const Projects = () => {
         {/* here wheather tracker application project */}
         <div className='bg-[#1c1445] p-8 rounded-xl border border-gray-700 shadow-lg hover:Shadow-2xl hover:translate-y-2 transition duration-300'>
           <img
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+            src={project02}
             alt="heroImage"
             className='rounded-xl shadow-2xl'
           />
