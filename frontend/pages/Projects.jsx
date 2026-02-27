@@ -75,7 +75,7 @@ const Projects = () => {
             dashboard, and performance tracking features.
           </p>
 
-          <a href="https://habit-tracker-eosin-chi.vercel.app/habits"
+          <a href="https://habit-tracker-eosin-chi.vercel.app/"
             className='inline-block px-3 py-2 mr-2 my-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:text-white hover:bg-red-500 transitions'
           >
             View Project
