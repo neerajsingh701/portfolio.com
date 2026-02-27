@@ -67,7 +67,8 @@ const Projects = () => {
             className='rounded-xl shadow-2xl'
           />
           <h3 className="text-xl font-semibold mb-4">
-            Wheather Tracking website
+            Habit Tracker app
+
           </h3>
           <p text-gray-300 mb-6>
             A MERN stack habit tracker application with authentication,
@@ -96,7 +97,8 @@ const Projects = () => {
             className='rounded-xl shadow-2xl'
           />
           <h3 className="text-xl font-semibold mb-4">
-            Habit Tracker app
+
+            Wheather Tracking website
           </h3>
           <p text-gray-300 mb-6>
             RESTful API backend built using Node.js and Express

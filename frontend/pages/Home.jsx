@@ -1,5 +1,5 @@
 
-import image1 from '../src/assets/image1.jpeg'
+import edited from '../src/assets/edited.jpg'
 import frontend from '../src/assets/frontend.jpg'
 import backend from '../src/assets/backend_1.jpg'
 import optimization from '../src/assets/optimization.jpg'
@@ -38,7 +38,7 @@ const Home = () => {
 
                 <div className="flex-1">
                     <img
-                        src={image1}
+                        src={edited}
                         alt="heroImage"
                         className='w-95  object-cover rounded-xl shadow-2xl'
                     />
