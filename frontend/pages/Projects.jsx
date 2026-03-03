@@ -7,6 +7,7 @@ import project3 from '../src/assets/project3.png'
 import project4 from '../src/assets/project4.png'
 import project5 from '../src/assets/project5.png'
 import project6 from '../src/assets/project6.png'
+import project03 from '../src/assets/wheather.png'
 
 
 const Projects = () => {
@@ -92,7 +93,7 @@ const Projects = () => {
         {/* here habit tracker project will come */}
         <div className='bg-[#1c1445] p-8 rounded-xl border border-gray-700 shadow-lg hover:Shadow-2xl hover:translate-y-2 transition duration-300'>
           <img
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+            src={project03}
             alt="heroImage"
             className='rounded-xl shadow-2xl'
           />
@@ -105,12 +106,12 @@ const Projects = () => {
             with JWT authentication and MongoDB integration
           </p>
 
-          <a href="#"
+          <a href="https://wheatherchecking.netlify.app/"
             className='inline-block px-3 py-2 mr-2 my-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:text-white hover:bg-red-500 transitions'
           >
             View Project
           </a>
-          <a href="#"
+          <a href="https://github.com/neerajsingh701/Wheather-Checking.git"
             className='inline-block px-3 py-2 bg-white text-[#130b3a] font-semibold rounded-lg hover:text-white hover:bg-sky-600 transitions'
           >
             View source code
